@@ -351,5 +351,52 @@ footer {
     .conditions {
         font-size: 1rem;
     }
+    .promo-highlight {
+    background: linear-gradient(135deg, var(--azul-tejo), #1e6fa8);
+    color: var(--branco);
+    padding: 40px 30px;
+    border-radius: 18px;
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.promo-highlight h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.promo-price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 18px;
+    margin-bottom: 20px;
+}
+
+.old-price {
+    font-size: 1.4rem;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.new-price {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--ouro-suave);
+}
+
+.promo-details {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.promo-note {
+    font-size: 0.85rem;
+    opacity: 0.75;
+}
+
 }
 
